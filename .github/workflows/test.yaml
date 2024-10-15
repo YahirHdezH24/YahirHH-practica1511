@@ -8,7 +8,7 @@ jobs:
 
         steps:
             - name: Mensaje
-              run: echo "Hola mundo - Yahir"
+              run: echo "Hola mundo"
             - name: Touch File        #Crea
               run: |
                     touch hola.txt
