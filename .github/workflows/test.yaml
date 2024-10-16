@@ -26,3 +26,6 @@ jobs:
         steps:
             - name: Directorio
               run: ls -al
+            - name: Checkout
+              uses: actions/checkout@v4.2.1
+            
